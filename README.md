@@ -1,14 +1,39 @@
 **This is a project in development**
 
-## You can checkout the progress here: **[Wisell recommerce](https://wisell-ecommerce.netlify.app)**
+## You can checkout the progress here: **[Wisell Seller](https://wisellseller.netlify.app)**
 
 ---
 
+#### Important!!! This live version is without the backend data. it is just to see how the front are and the possibilities that the project can do. Also i do not have permission to implement the backend in a live version.
+
 #### About the project
 
-> -This project was created with the intention of be a more easy way to make another websites. The purpose is to be almost like a library of components so when the client asks for a website i can do it in a more fast pace than start from zero every time.
+> -Wisell Seller is an aplication for seller management and manege sells. You can do awesome things like
 
-> - In future updates will be a FULL reusable component to make even fast and better aplications.
+### Built With
+
+The major libraries used in the project with the help of many others ^^
+
+- [React.js](https://reactjs.org/)
+- [Material UI](https://mui.com/)
+- [React-bootstrap](https://react-bootstrap.github.io/)
+- [GraphQL](https://graphql.org/)
+- [Styled-components](https://styled-components.com/)
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/elizioNeto22/wisell-seller.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+3. Initialize the project
+   ```sh
+   npm start
+   ```
 
 #### Contact
 
