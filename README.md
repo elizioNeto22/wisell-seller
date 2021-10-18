@@ -1,6 +1,6 @@
 **This is a project in development**
 
-## You can checkout the progress here: **[Wisell Seller](https://wisellseller.netlify.app)**
+## Soon you can checkout the progress here: **[Wisell Seller](https://wisellseller.netlify.app)**
 
 ---
 
@@ -33,6 +33,11 @@ The major libraries used in the project with the help of many others ^^
 3. Initialize the project
    ```sh
    npm start
+   ```
+4. Enter login with
+   ```sh
+   email: wisell@email.com
+   password: 123456
    ```
 
 #### Contact
