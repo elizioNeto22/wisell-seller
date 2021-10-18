@@ -1,0 +1,51 @@
+.backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10000;
+  background: rgba(83, 61, 143, 0.75);
+}
+
+.modal {
+  position: fixed;
+  top: 20vh;
+  left: 10%;
+  width: 80%;
+  z-index: 11100;
+  overflow: hidden;
+}
+
+.header {
+  background: #4f005f;
+  padding: 1rem;
+}
+
+.header {
+  margin: 0;
+  color: white;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.button {
+  background: #1212a8;
+  padding: 10px;
+  justify-content: flex-center;
+}
+
+.actions {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}

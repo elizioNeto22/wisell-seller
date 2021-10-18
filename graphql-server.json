@@ -1,0 +1,696 @@
+{
+  "todo": [
+    {
+      "id": 1,
+      "title": "Modelar API Teknisa",
+      "status": "open"
+    },
+    {
+      "id": 2,
+      "title": "Montar servidor Mock GraphQL",
+      "status": "open"
+    },
+    {
+      "id": 3,
+      "title": "Sic Dolor amet",
+      "status": "open"
+    },
+    {
+      "id": 4,
+      "title": "Sic Dolor amet",
+      "status": "open"
+    }
+  ],
+  "users": [
+    {
+      "id": 123,
+      "name": "John Doe"
+    },
+    {
+      "id": 456,
+      "name": "Jane Doe"
+    }
+  ],
+  "done": [
+    {
+      "id": "foo",
+      "name": "Foo",
+      "status": "completed"
+    },
+    {
+      "id": "bar",
+      "name": "Bar",
+      "status": "completed"
+    }
+  ],
+  "unidade": [
+    {
+      "codigo": 10,
+      "descricao": "KG",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 10,
+      "descricao": "UN",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 10,
+      "descricao": "LT",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 10,
+      "descricao": "KM",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "departamento": [
+    {
+      "codigo": 15,
+      "descricao": "Administrativo",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 19,
+      "descricao": "Fábrica",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 12,
+      "descricao": "Financeiro",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 13,
+      "descricao": "Pessoal",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "secao": [
+    {
+      "codigo": 24,
+      "descricao": "Nova Seção 1",
+      "departamento": {
+        "codigo": 14,
+        "descricao": "Descrição Dep 14"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 25,
+      "descricao": "Seção 2",
+      "departamento": {
+        "codigo": 15,
+        "descricao": "Descrição Dep 15"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 26,
+      "descricao": "Seção 3",
+      "departamento": {
+        "codigo": 16,
+        "descricao": "Descrição Dep 16"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 27,
+      "descricao": "Seção 4",
+      "departamento": {
+        "codigo": 17,
+        "descricao": "Descrição Dep 17"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    }
+  ],
+  "categoria": [
+    {
+      "codigo": 34,
+      "descricao": "Categoria 1",
+      "secao": {
+        "codigo": 24,
+        "descricao": "Descrição Seção 24"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 35,
+      "descricao": "Categoria 2",
+      "secao": {
+        "codigo": 26,
+        "descricao": "Descrição Seção 25"
+      },
+      "registro": "05/10/2020",
+      "usuario": "João"
+    },
+    {
+      "codigo": 36,
+      "descricao": "Categoria 3",
+      "secao": {
+        "codigo": 27,
+        "descricao": "Descrição Seção 26"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Anderson"
+    },
+    {
+      "codigo": 37,
+      "descricao": "Categoria 4",
+      "secao": {
+        "codigo": 28,
+        "descricao": "Descrição Seção 27"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Cristina"
+    }
+  ],
+  "subcategoria": [
+    {
+      "codigo": 44,
+      "descricao": "Subcategoria 1",
+      "departamento": {
+        "codigo": 14,
+        "descricao": "Descrição Dep 14"
+      },
+      "secao": {
+        "codigo": 24,
+        "descricao": "Descrição Seção 24"
+      },
+      "categoria": {
+        "codigo": 34,
+        "descricao": "Descrição Categoria 34"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 55,
+      "descricao": "Subcategoria 1",
+      "departamento": {
+        "codigo": 15,
+        "descricao": "Descrição Dep 15"
+      },
+      "secao": {
+        "codigo": 25,
+        "descricao": "Descrição Seção 25"
+      },
+      "categoria": {
+        "codigo": 35,
+        "descricao": "Descrição Categoria 35"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 56,
+      "descricao": "Subcategoria 1",
+      "departamento": {
+        "codigo": 16,
+        "descricao": "Descrição Dep 16"
+      },
+      "secao": {
+        "codigo": 26,
+        "descricao": "Descrição Seção 26"
+      },
+      "categoria": {
+        "codigo": 36,
+        "descricao": "Descrição Categoria 36"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 57,
+      "descricao": "Subcategoria 1",
+      "departamento": {
+        "codigo": 17,
+        "descricao": "Descrição Dep 17"
+      },
+      "secao": {
+        "codigo": 27,
+        "descricao": "Descrição Seção 27"
+      },
+      "categoria": {
+        "codigo": 37,
+        "descricao": "Descrição Categoria 37"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    }
+  ],
+  "marca": [
+    {
+      "codigo": 145,
+      "descricao": "Adidas",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 146,
+      "descricao": "Nike",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 147,
+      "descricao": "Puma",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 148,
+      "descricao": "Umbro",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "apresentacao": [
+    {
+      "codigo": 145,
+      "descricao": "Senhor",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 146,
+      "descricao": "Senhora",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 147,
+      "descricao": "Excelência",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 148,
+      "descricao": "Doutor",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "produto": [
+    {
+      "codigo": 65,
+      "descricao": "Produto 1",
+      "fabricante": "Fabricante 1",
+      "departamento": 15,
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 69,
+      "descricao": "Produto 2",
+      "departamento": 19,
+      "fabricante": "Fabricante 2",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 62,
+      "descricao": "Produto 3",
+      "departamento": 12,
+      "fabricante": "Fabricante 3",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 63,
+      "descricao": "Produto 4",
+      "departamento": 13,
+      "fabricante": "Fabricante 4",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "tipoFilial": [
+    {
+      "codigo": 75,
+      "descricao": "Tipo Filial 1",
+      "vende": "Não",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 79,
+      "descricao": "Tipo Filial 2",
+      "vende": "Sim",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 72,
+      "descricao": "Tipo Filial 3",
+      "vende": "Sim",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 73,
+      "descricao": "Tipo Filial 4",
+      "vende": "Não",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "ramoAtividade": [
+    {
+      "codigo": 75,
+      "descricao": "Ramo Atividade 1",
+      "vende": "Não",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 79,
+      "descricao": "Ramo Atividade 2",
+      "vende": "Sim",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 72,
+      "descricao": "Ramo Atividade 3",
+      "vende": "Sim",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 73,
+      "descricao": "Ramo Atividade 4",
+      "vende": "Não",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "atividadeComercial": [
+    {
+      "codigo": 24,
+      "descricao": "AtividadeComercial 1",
+      "ramoAtividade": {
+        "codigo": 14,
+        "descricao": "Descrição Ramo 14"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 25,
+      "descricao": "AtividadeComercial 2",
+      "ramoAtividade": {
+        "codigo": 15,
+        "descricao": "Descrição Ramo 15"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 26,
+      "descricao": "AtividadeComercial 3",
+      "ramoAtividade": {
+        "codigo": 16,
+        "descricao": "Descrição Ramo 16"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 27,
+      "descricao": "AtividadeComercial 4",
+      "ramoAtividade": {
+        "codigo": 17,
+        "descricao": "Descrição Ramo 17"
+      },
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    }
+  ],
+  "grupoFilial": [
+    {
+      "codigo": 85,
+      "descricao": "Grupo Filial 1",
+      "responsavel": "responsável 1",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 89,
+      "descricao": "Grupo Filial 2",
+      "responsavel": "responsável 2",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 82,
+      "descricao": "Grupo Filial 3",
+      "responsavel": "responsável 3",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 83,
+      "descricao": "Grupo Filial 4",
+      "responsavel": "responsável 4",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "grupoExterno": [
+    {
+      "codigo": 85,
+      "descricao": "Grupo Externo 1",
+      "responsavel": "responsável 1",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 89,
+      "descricao": "Grupo Externo 2",
+      "responsavel": "responsável 2",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 82,
+      "descricao": "Grupo Externo 3",
+      "responsavel": "responsável 3",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 83,
+      "descricao": "Grupo Externo 4",
+      "responsavel": "responsável 4",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "grupoInterno": [
+    {
+      "codigo": 85,
+      "descricao": "Grupo Interno 1",
+      "responsavel": "responsável 1",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 89,
+      "descricao": "Grupo Interno 2",
+      "responsavel": "responsável 2",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 82,
+      "descricao": "Grupo Interno 3",
+      "responsavel": "responsável 3",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 83,
+      "descricao": "Grupo Interno 4",
+      "responsavel": "responsável 4",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "pessoaFisica": [
+    {
+      "codigo": 95,
+      "descricao": "Pessoa Fisica 1",
+      "ativa": "Sim",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 99,
+      "descricao": "Pessoa Fisica 2",
+      "ativa": "Não",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 92,
+      "descricao": "Pessoa Fisica 3",
+      "ativa": "Não",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 93,
+      "descricao": "Pessoa Fisica 4",
+      "ativa": "Sim",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "pessoaJuridica": [
+    {
+      "codigo": 105,
+      "descricao": "Pessoa Jurídica 1",
+      "ativa": "Sim",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 109,
+      "descricao": "Pessoa Jurídica 2",
+      "ativa": "Não",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 102,
+      "descricao": "Pessoa Jurídica 3",
+      "ativa": "Não",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 103,
+      "descricao": "Pessoa Jurídica 4",
+      "ativa": "Sim",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "cliente": [
+    {
+      "codigo": 115,
+      "descricao": "Cliente 1",
+      "tipo": "Tipo 1",
+      "ativa": "Sim",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 119,
+      "descricao": "Cliente 2",
+      "ativa": "Sim",
+      "tipo": "Tipo 2",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 112,
+      "descricao": "Cliente 3",
+      "ativa": "Sim",
+      "tipo": "Tipo 3",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 113,
+      "descricao": "Cliente 4",
+      "ativa": "Sim",
+      "tipo": "Tipo 4",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "grupoEconomico": [
+    {
+      "codigo": 125,
+      "descricao": "Grupo Econômico 1",
+      "responsavel": "responsável 1",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 129,
+      "descricao": "Grupo Econômico 2",
+      "responsavel": "responsável 2",
+      "registro": "04/10/2020",
+      "usuario": "Joao"
+    },
+    {
+      "codigo": 122,
+      "descricao": "Grupo Econômico 3",
+      "responsavel": "responsável 3",
+      "registro": "06/10/2020",
+      "usuario": "Pedro"
+    },
+    {
+      "codigo": 123,
+      "descricao": "Grupo Econômico 4",
+      "responsavel": "responsável 4",
+      "registro": "20/12/2020",
+      "usuario": "Gustavo"
+    }
+  ],
+  "vendedor": [
+    {
+      "codigo": 135,
+      "descricao": "Vendedor 1",
+      "ativo": "Sim",
+      "supervisor": "Supervisor 1",
+      "nivel": "5",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 135,
+      "descricao": "Vendedor 2",
+      "ativo": "Sim",
+      "supervisor": "Supervisor 2",
+      "nivel": "5",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 135,
+      "descricao": "Vendedor 3",
+      "ativo": "Não",
+      "supervisor": "Supervisor 3",
+      "nivel": "5",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    },
+    {
+      "codigo": 135,
+      "descricao": "Vendedor 4",
+      "ativo": "Sim",
+      "supervisor": "Supervisor 4",
+      "nivel": "5",
+      "registro": "05/10/2020",
+      "usuario": "Maria"
+    }
+  ]
+}

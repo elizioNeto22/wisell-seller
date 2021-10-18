@@ -1,0 +1,24 @@
+import React, { useState } from 'react'
+import {Box, Button, Container, Divider, Grid, Paper, TextField} from '@material-ui/core';
+import SelectCustomer from './ProductsPageItems.tsx/SelectCustomer';
+import ProductSearch from './ProductsPageItems.tsx/ProductSearch';
+
+const ProductPage = () => {
+
+  const [term, setTerm] = useState('')
+  
+  return (
+    <Grid container
+        direction="column"
+    >
+        <Grid item>
+            <SelectCustomer/>
+        </Grid>
+        <Grid item>
+            <ProductSearch/>
+        </Grid>
+    </Grid>   
+  )
+}
+
+export default ProductPage
