@@ -8,7 +8,9 @@
 
 #### About the project
 
-> -Wisell Seller is an aplication for seller management and manege sells. You can do awesome things like
+> -Wisell Seller is an aplication for seller management and manege sells. You can do
+> awesome things like motinor sales, have a wallet of clients, have sales tips and many
+> other sales related great things.
 
 ### Built With
 
